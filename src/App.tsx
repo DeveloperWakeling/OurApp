@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import * as React from 'react';
 import { Link } from 'react-router-dom';
 import MainContent from './maincontent';
 import Navigation from './navigation';
 import './App.css';
 
-class App extends Component {
+class App extends React.Component{
   render() {
     return (
       <div>
