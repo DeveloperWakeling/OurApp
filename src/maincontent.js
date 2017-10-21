@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './pages/home';
-import Test from './pages/test';
+import About from './pages/about';
 
 const MainContent = () => (
     <Switch>
         <Route exact path='/' component={Home} />
-        <Route path='/test' component={Test} />
+        <Route path='/about' component={About} />
     </Switch>
 );
 

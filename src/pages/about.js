@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
-const Test = () => (
+const About = () => (
     <div>Hello</div>
 );
 
-export default Test;
+export default About;
